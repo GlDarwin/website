@@ -1,6 +1,11 @@
+function askName(){
 var name = prompt('what is your name?');
 document.write('<h1>' + name + '</h1>');
 
+}
+
+
+function whatTime(){
 var hourNow = prompt('what time is now');
  
 var greeting;
@@ -16,6 +21,8 @@ if (hourNow > 18) {
 }
 
 document.write('<h3>' + greeting + '</h3>');
-
+}
+function askHowmany(){
 var many = prompt('flowers');
 document.write('<h1>' + many + '</h1>');
+}
